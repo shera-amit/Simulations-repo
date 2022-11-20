@@ -1,0 +1,19 @@
+INCAR	
+PREC	=	Normal	
+ENCUT	=	400	
+ALGO	=	Fast	
+LREAL	=	Auto	
+ISMEAR	=	0					!	Gaussian	smearing	
+SIGMA	=	0.05		
+ISYM	=	0										!	Symmetry	off	
+!	MD	
+IBRION	=	0						!	MD	
+POTIM	=	0.5			!	Time	step	=	0.5	fs
+NSW	=	100						!	Number	of	ionic	steps	
+TEBEG	=	400			!	Start	temperature			
+TEEND	=	400			!	Final	temperature		
+SMASS	=	0							!	Canonical	(Nose-Hoover)	thermostat	
+POMASS	=	16.0	2.0	!	Deuterium	mass	for	Hydrogen	
+!	Don’t	write	WAVECAR	or	CHGCAR	
+LWAVE	=	F		
+LCHARG	=	F	
