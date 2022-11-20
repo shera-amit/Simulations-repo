@@ -7,7 +7,7 @@ ISMEAR	=	0
 SIGMA	=	0.05		
 ISYM	=	0
 !	MD	
-IBRION	=	0			!	MD	
+IBRION	=	0.    !MD
 POTIM	=	0.5     !	Time	step	=	0.5	fs
 NSW	=	100				!	Number	of	ionic	steps	
 TEBEG	=	400			!	Start	temperature			
